@@ -12,9 +12,9 @@ else
 
 /usr/bin/killall -q  xv
 /usr/bin/killall -q java
-/usr/local/i3/usbreset.sh
+/usr/local/risingData/usbreset.sh
 set -f
-(while true; do read -e lastcmd; history -s $lastcmd; echo $lastcmd; done) | java -jar /usr/local/i3/jl.jar "$@" /usr/local/i3/logo/project 
+(while true; do read -e lastcmd; history -s $lastcmd; echo $lastcmd; done) | java -jar /usr/local/risingData/jl.jar "$@" /usr/local/risingData/logo/project 
  exit 0
 
 fi
