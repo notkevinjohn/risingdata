@@ -58,8 +58,6 @@ to project :n
   setup-screen
   start_log
   make "playback false 
-;  usbreset
-  save-code 
 end
 
 to start_log
